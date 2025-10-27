@@ -6,4 +6,4 @@ A clean and modern product display card built with HTML and CSS, featuring:
 🔧 **Tech used:** HTML, CSS, basic JavaScript  
 🖼️ **Demo image:**
 
-![Preview](./"C:\Users\HP\OneDrive\Bilder\Screenshots\product-card-project.png")
+![Preview](C:\Users\HP\OneDrive\Bilder\Screenshots\product-card-project.png)
