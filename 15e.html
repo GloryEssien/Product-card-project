@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+      .image{
+        width: 300px;
+      }
+
+      .Image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+
+        position: relative;
+        top: 30px;   
+      }
+
+      .Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Discount{
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        padding: 10px 10px;
+
+
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+
+      .button-overlay{
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button{
+        font-family: Arial;
+        font-weight: 500;
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+    <div class="Image-container">
+    <div ><img class="image" src="images/216075eccb5b78c6c2f39c82128e4153.jpg"></div>
+    <div class="Discount">20% OFF</div>
+    <div class="button-overlay">
+      <div><button class="button">Add to Cart</button></div>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
